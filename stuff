@@ -1,0 +1,9 @@
+def removeToy(toy)
+    with sqlite3.connect(lootbag_db) as conn:
+        cursor = conn.cursor()
+
+        try:
+            cursor.execute(
+                '''
+                DELETE FROM TOYS 
+            )
