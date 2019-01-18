@@ -159,14 +159,15 @@ if __name__ == "__main__":
     # print(f'{clean_list_of_receiving_children} are receiving gifts.')
     # Output: Kiwi and Olive are receiving gifts.
     # 4.
-        # if sys.argv[1] == "ls" and sys.argv[2]:
+        # if sys.argv[1] == "ls" and sys.argv[2] is not None:
         #     getChildsToys(sys.argv[2])
         #     print(f"This child received " + ' and '.join(list_of_received_toys) + ".")
-        # not working as intended
+        # # not working as intended
         # elif sys.argv[1] == "ls":
         #     getReceivingChildren()
         #     clean_list_of_receiving_children = ' and '.join(list_of_receiving_children)
         #     print(f'{clean_list_of_receiving_children} are receiving gifts.')
+        
     # getChildsToys("Kiwi")
     # print(f"This child received " + ' and '.join(list_of_received_toys) + ".")
     # Output: This child received Leftover Pizza and Fluffy Bone.
